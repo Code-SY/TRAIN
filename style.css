@@ -1,37 +1,94 @@
 body {
-    background-color:rgb(174, 224, 247);
-    
-}
-.jumbotron{
-    background: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/HD-Steam-Engine-Wallpaper.jpg"); 
+    background-image: url(https://images.all-free-download.com/images/graphicthumb/railway_01_hd_picture_168608.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: wheat;
-    
+    background-attachment: fixed;
 }
-.card-header{
-    background-color: rgb(63, 63, 202);
-    font-size: 1em;
-    padding: 10px;
-    font-weight: bold;
+
+.jumbotron {
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/HD-Steam-Engine-Wallpaper.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    padding: 5%;
 }
+
 th {
-    background-color: rgb(85, 176, 236);
     color: black;
     font-weight: bold;
+    text-align: justify;
 }
+
 td {
-    background-color: white;
-    color: black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(37, 13, 75);
+    text-align: justify;
 }
+
+#card {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    position: relative;
+}
+
 h1 {
-    font-family: Times;
+    font-family: 'Jacques Francois Shadow';
     font-weight: bold;
+    font-size: 3.5em;
+    color: rgb(231, 220, 220);
 }
+
+h5 {
+    font-family: 'Codystar', cursive;
+    font-size: 1.5em;
+}
+
 .form-group {
     color: black;
+    position: relative;
 }
 
+.submit {
+    position: relative;
+}
 
+footer {
+    font-family: 'Codystar', cursive;
+    color: darkblue;
+    background-color: rgba(32, 110, 227, 0.351);
+    text-align: center;
+    text-anchor: middle;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-animation: mymove 3s infinite;
+    animation: mymove 3s infinite;
+}
 
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {
+        color: darkred;
+    }
+
+    to {
+        color: yellow;
+    }
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from {
+        color: darkred;
+    }
+
+    to {
+        color: yellow;
+    }
+}
